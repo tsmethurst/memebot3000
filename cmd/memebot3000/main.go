@@ -33,7 +33,7 @@ func main() {
 			log.Fatal(err)
 		}
 		log.Info("status posted!")
-		time.Sleep(30 * time.Minute)
+		time.Sleep(2 * time.Hour)
 	}
 }
 
